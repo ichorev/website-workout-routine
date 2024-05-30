@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mental Health Workout Routine and How Gaming Affects Your Mental Health</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .grid-item {
+            text-align: center;
+        }
+
+        .grid-item img {
+            width: 300px;
+            height: 250px;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        #demo, #situpDemo, #plankDemo, #runningDemo, #sidestepsDemo {
+            color: blue;
+            background-color: lightyellow;
+            font-size: 20px;
+            border: 2px solid black;
+            font-style: italic;
+        }
+    </style>
+    <style>* {
+        box-sizing: border-box;
+      }
+      
+      .column {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+      }
+      
+      /* Clearfix (clear floats) */
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }</style>
+    
+</head>
+<body>
+    <h1>Workout Routine</h1>
+
+    <h2>Pushups</h2>
+    <h3>10 pushups per set and 3 sets</h3>
+    <div class="grid-container">
+        <div class="grid-item">
+            <img src="WIN_20240523_14_00_46_Pro.jpg" alt="pushup image 1" width="200" height="200">
+            <p>pushup step1 </p>
+        </div>
+        <div class="grid-item">
+            <img src="WIN_20240523_14_00_56_Pro.jpg" alt="pushup image 2" width="200" height="200">
+            <p>pushup step2</p>
+        </div>
+        <div class="grid-item">
+            <img src="WIN_20240523_14_00_58_Pro.jpg" alt="pushup image 3" width="200" height="200">
+            <p>pushup step3</p>
+        </div>
+    </div>
+    <p id="demo">Do the pushups with us.</p>
+    <button type="button" onclick="changePushupContent()">Pushups</button>
+
+    <script>
+        function changePushupContent() {
+            var element = document.getElementById('demo');
+            element.innerHTML = 'Here is a video of how to do a pushup:<br>\
+            <video id="myVideo" width="320" height="240" controls>\
+                <source src="WIN_20240524_17_56_57_Pro - Trim.mp4" type="video/mp4">\
+                <source src="WIN_20240524_17_56_57_Pro - Trim.ogg" type="video/ogg">\
+                Your browser does not support the video tag.\
+            </video>';
+        }
+    </script>
+
+    <h2>Situps</h2>
+    <h3>15 situps per set and 2 sets</h3>
+    <div class="grid-container">
+        <div class="grid-item">
+            <img src="situp1.png" alt="situp image 1" width="200" height="200">
+            <p>situp variation step1</p>
+        </div>
+        <div class="grid-item">
+            <img src="situp2.png" alt="situp image 2" width="200" height="200">
+            <p>situp varition1 step2</p>
+        </div>
+        <div class="grid-item">
+            <img src="situp3.png" alt="situp image 3" width="200" height="200">
+            <p>situp varition1 step3</p>
+        </div>
+        <div class="grid-item">
+            <img src="situp4.png" alt="situp image 4" width="200" height="200">
+            <p>situp variation2 step1</p>
+        </div>
+        <div class="grid-item">
+            <img src="situp5.png" alt="situp image 5" width="200" height="200">
+            <p>situp variation2 step2</p>
+        </div>
+        <div class="grid-item">
+            <img src="situp6.png" alt="situp image 6" width="200" height="200">
+            <p>situp variation2 step3</p>
+        </div>
+    </div>
+    <p id="situpDemo">Do situps with us.</p>
+    <button type="button" onclick="changeSitupContent()">Situps</button>
+
+    <script>
+        function changeSitupContent() {
+            var element = document.getElementById('situpDemo');
+            element.innerHTML = 'Here is a video of how to do a situp:<br>\
+            <video id="myVideo2" width="320" height="240" controls>\
+                <source src="WIN_20240524_17_58_54_Pro - Trim.mp4" type="video/mp4">\
+                <source src="WIN_20240524_17_58_54_Pro - Trim.ogg" type="video/ogg">\
+                Your browser does not support the video tag.\
+            </video>';
+        }
+    </script>
+
+    <h2>Plank</h2>
+    <h3>1 minute 10 seconds plank</h3>
+    <h4>Here are all four variations</h4>
+    <div class="grid-container">
+        <div class="grid-item">
+            <img src="normal plank.png" alt="plank image 1" width="300" height="250">
+            <p>normal Plank </p>
+        </div>
+        <div class="grid-item">
+            <img src="going up for differnt varation plank.png" alt="plank image 2" width="300" height="250">
+            <p>going up for full Plank</p>
+        </div>
+        <div class="grid-item">
+            <img src="full plank in pushup position.png" alt="plank image 3" width="300" height="250">
+            <p>full Plank</p>
+        </div>
+        <div class="grid-item">
+            <img src="makeing it harder variation 1.png" alt="plank image 4" width="300" height="250">
+            <p>harder variation plank 1</p>
+        </div>
+        <div class="grid-item">
+            <img src="makeing it harder variation 2.png" alt="plank image 5" width="300" height="250">
+            <p>harder variation plank 2</p>
+        </div>
+    </div>
+    <p id="plankDemo">Do the plank with us.</p>
+    <button type="button" onclick="changePlankContent()">Plank</button>
+
+    <script>
+        function changePlankContent() {
+            var element = document.getElementById("plankDemo");
+            element.innerHTML = 'Here is a video of how to do a plank:<br>\
+            <video id="myVideo3" width="320" height="240" controls>\
+                <source src="WIN_20240524_18_00_56_Pro - Trim.mp4" type="video/mp4">\
+                <source src="WIN_20240524_18_00_56_Pro - Trim(1).ogg" type="video/ogg">\
+                Your browser does not support the video tag.\
+            </video>';
+        }
+    </script>
+
+    <h2>Running on the Spot</h2>
+    <h3>Running on the spot sprint 1min 20 sec</h3>
+    <div class="grid-container">
+        <div class="grid-item">
+            <img src="running.png" alt="running on the spot" width="200" height="200">
+            <p>running on the spot</p>
+        </div>
+    </div>
+    <p id="runningDemo">Running on the spot with us.</p>
+    <button type="button" onclick="changeRunningContent()">Running on the spot</button>
+
+    <script>
+        function changeRunningContent() {
+            var element = document.getElementById('runningDemo');
+            element.innerHTML = 'Here is a video of how to run on the spot:<br>\
+            <video id="myVideo4" width="320" height="240" controls>\
+                <source src="running video - Trim.mp4" type="video/mp4">\
+                <source src="running video - Trim.ogg" type="video/ogg">\
+                Your browser does not support the video tag.\
+            </video>';
+        }
+    </script>
+    <h2>sidesteps</h2>
+    <h3>side steps 10 per set and 3 sets</h3>
+    <div class="row">
+        <div class="column">
+          <img src="sidesteps1.png" alt="sidesteps1" width="200" height="300">
+          <p>sidesteps1</p>
+        </div>
+        <div class="column">
+          <img src="sidesteps2.png" alt="sidesteps2" width="200" height="300">
+          <p>sidesteps2</p>
+        </div>
+      </div>
+    <p id="sidestepsDemo">sidesteps with us.</p>
+    <button type="button" onclick="changeSidestepsContent()">sidesteps</button>
+
+    <script>
+        function changeSidestepsContent() {
+            var element = document.getElementById('sidestepsDemo');
+            element.innerHTML = 'Here is a video of how do the sidesteps:<br>\
+            <video id="myVideo5" width="320" height="240" controls>\
+                <source src="sidesteps - Trim.mp4" type="video/mp4">\
+                <source src="sidesteps - Trim.ogg" type="video/ogg">\
+                Your browser does not support the video tag.\
+            </video>';
+        }
+    </script>
+</body>
+</html>
